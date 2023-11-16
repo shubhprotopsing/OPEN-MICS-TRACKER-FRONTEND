@@ -1,0 +1,82 @@
+.neon_text {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px red,
+        0 0 82px red,
+        0 0 92px red,
+        0 0 102px red,
+        0 0 151px red;
+
+        /* responsible for the skewed header */
+        clip-path: polygon(100% 0, 100% 80%, 70% 100%, 0 70%, 0 0);
+    
+        /* responsible for the parallax effect */
+        background-attachment: fixed;
+  
+    
+  
+    font-size: 18px;
+    size:1490px 590px ;
+    font-family: "Yellowtail", sans-serif;
+    background-color:white;
+    background-image: url("../images/redBrickWall.jpg");
+    background-size: 1490px 600px;
+    background-repeat:repeat-x;
+    background-position-y: -50px;
+    background-position-x:center;
+    background-clip: polygon(100% 0, 100% 80%, 70% 100%, 0 70%, 0 0);
+    
+    
+    
+
+  }  
+  
+  .neon_text h1, h2 {
+    text-align: center;
+    font-weight: 400;
+    
+  }
+    
+  .neon_text h1 {
+      font-size: 5.2rem;
+      animation: pulsate 0.11s ease-in-out infinite alternate;     
+  }
+    
+  .neon_text h2 {
+      font-size: 1.8rem;
+  }
+  
+  @keyframes pulsate {
+      
+     100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px rgb(241, 159, 159),
+        0 0 80px rgb(241, 159, 159),
+        0 0 90px rgb(241, 159, 159),
+        0 0 100px rgb(241, 159, 159),
+        0 0 150px rgb(241, 159, 159);
+    
+    } 
+    
+     0% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px rgb(241, 159, 159),
+      0 0 73px rgb(241, 159, 159),
+      0 0 80px rgb(241, 159, 159),
+      0 0 94px rgb(241, 159, 159),
+      0 0 140px rgb(241, 159, 159);
+  
+  } 
+}
+  

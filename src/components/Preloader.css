@@ -1,0 +1,20 @@
+.preloadBody {
+  height: 100vh;
+  width: 100wh;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+}
+
+@media (min-width: 500px) {
+  .image {
+    height: 200px;
+    width: 200px;
+  }
+}

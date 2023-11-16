@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.mic_card_container.open {
+}
+
+.mic_card_container {
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+@media (max-width: 412px) {
+  .searchButton {
+    top: -2rem;
+    right: -22rem;
+  }
+}
+@media (max-width: 639px) and (min-width: 413px) {
+  .searchButton {
+    top: 0.5rem;
+    right: 2rem;
+  }
+
+}
+@media (min-width: 640px) and (max-width: 811px) {
+  .searchButton {
+    top: -2rem;
+    right: -22rem;
+  }
+}
+@media (min-width: 812px) {
+  .searchButton {
+    top: 0.5rem;
+    right: 2rem;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
